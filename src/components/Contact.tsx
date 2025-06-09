@@ -1,13 +1,14 @@
 import Image from 'next/image';
 import { Link } from './Link';
 import { ArrowDownOnSquareIcon } from '@heroicons/react/24/solid'
+import HolPic from "../images/HollyChrisp.jpg";
 
 export const Contact = () => (
     <div className='flex flex-row justify-center min-w-full min-h-full p-8 text-center font-extralight'>
         <div className="min-w-96 lg:min-w-[600px] p-4 flex flex-col justify-center bg-white rounded-sm px-12">
             <div className='flex flex-row justify-center mb-8'>
             <Image
-                src="/HollyChrisp.jpg"
+                src={HolPic}
                 alt="A picture of Holly Chrisp"
                 width={100}
                 height={50}
