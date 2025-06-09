@@ -8,7 +8,7 @@ export interface SectionProps {
 }
 
 export const Section: FunctionComponent<SectionProps> = ({children, color, id, textColor }) => (
-    <section className={`h-full w-full ${color} snap-center snap-always ${textColor} `} id={id}>
+    <section className={`h-full w-full ${color} ${textColor} `} id={id}>
         {children}
     </section>
 )
