@@ -12,7 +12,7 @@ export const Contact = () => (
                 <p className='text-lg my-2'>Phone: <Link href='tel:00447398 040560'>+44 7398 040560</Link></p>
                 <div className='flex flex-row items-center justify-center my-2'>
                     <p className='text-lg mr-2'>Checkout my portfolio: </p>
-                    <a href='/HollyChrisp_GD_Portfolio_Compressed.pdf' download='HollyChrispPortfolio_Compressed.pdf' className='text-indigo-700 hover:text-indigo-950'>
+                    <a href='/HollyChrisp_GD_Portfolio.pdf' download='HollyChrispPortfolio_Compressed.pdf' className='text-indigo-700 hover:text-indigo-950'>
                         <ArrowDownOnSquareIcon />
                     </a>
                 </div>
