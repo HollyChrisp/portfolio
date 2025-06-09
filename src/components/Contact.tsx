@@ -1,7 +1,5 @@
 import { Link } from './Link';
-import { O } from './O';
-//@ts-ignore
-import { UilFileDownload } from '@iconscout/react-unicons'
+import { ArrowDownOnSquareIcon } from '@heroicons/react/24/solid'
 
 export const Contact = () => (
     <div className='flex flex-row justify-center min-w-full min-h-full p-8 text-center'>
@@ -15,7 +13,7 @@ export const Contact = () => (
                 <div className='flex flex-row items-center justify-center my-2'>
                     <p className='text-lg mr-2'>Checkout my portfolio: </p>
                     <a href='/HollyChrisp_GD_Portfolio_Compressed.pdf' download='HollyChrispPortfolio_Compressed.pdf' className='text-indigo-700 hover:text-indigo-950'>
-                        <UilFileDownload />
+                        <ArrowDownOnSquareIcon />
                     </a>
                 </div>
             </div>
