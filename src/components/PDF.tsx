@@ -1,5 +1,5 @@
-import { UilFileDownload } from '@iconscout/react-unicons'
-
+import { ArrowDownOnSquareIcon } from '@heroicons/react/24/solid'
+ 
 export const PDF = () => {
     return (
         <div className='min-w-full flex-col items-center'>
@@ -8,7 +8,7 @@ export const PDF = () => {
                 <div className='flex flex-row items-center justify-center my-2'>
                     <p className='text-lg mr-2'>Checkout my portfolio: </p>
                     <a href='/HollyChrisp_GD_Portfolio_Compressed.pdf' download='HollyChrispPortfolio_Compressed.pdf' className='text-indigo-700 hover:text-indigo-950'>
-                        <UilFileDownload />
+                        <ArrowDownOnSquareIcon />
                     </a>
                 </div>
             </div>
