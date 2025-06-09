@@ -16,7 +16,7 @@ export const Contact = () => (
                 />
                 </div>
             <div className='mb-12'>
-                <h3 className='text-4xl'>HOLLY CHRISP</h3>
+                <h3 className='text-4xl'>Holly Chrisp</h3>
             </div>
             <div className='text-sm text-left md:text-justify  mb-12 max-w-[600px]'>
                 <p>Graphic Designer at Hearst, working on ELLE and Harper's Bazaar magazines. Experienced in both print and digital design, currently working towards a UI/UX certification to further my design skill set. I am looking for a position with more digital and UX/UI design involvment, to combine my passion for creativity with problem-solving. I’m drawn to crafting intuitive, user-centered experiences and hope to apply my strong visual design skills to digital products. Beyond design, I enjoy other creative hobbies like collage, illustration, and occasional video editing — all of which sharpen my eye for storytelling and composition.</p>
