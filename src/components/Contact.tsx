@@ -20,13 +20,23 @@ export const Contact = () => (
                 <h3 className='text-4xl'>Holly Chrisp</h3>
             </div>
             <div className='text-sm text-left md:text-justify  mb-12 max-w-[600px]'>
-                <p>Graphic Designer at Hearst, working on ELLE and Harper's Bazaar magazines. Experienced in both print and digital design. I'm drawn to crafting intuitive, user-centered experiences and hope to apply my strong visual design skills to digital products. Beyond design, I enjoy other creative hobbies like collage, illustration, and occasional video editing — all of which sharpen my eye for storytelling and composition.</p>
+                <p className='flex flex-col gap-2'>
+                    <span>
+                        Graphic Designer at Hearst, working on ELLE and Harper's Bazaar magazines. 
+                        I have professional experience in both print and digital design.
+                        My work often incorporates illustration, collage, and video editing. 
+                        I'm passionate about creating visually striking designs that remain clear, functional, and user-friendly.
+                    </span>
+                    <span>
+                        I'm currently looking for new and exciting opportunities to grow my skillset and further my career, where I can bring my creative approach to new challenges and formats.
+                    </span>
+                </p>
             </div>
             <div className='flex flex-col items-start'>
                 <p className='text-lg my-2'>Email: <Link href='mailto:hchrisp6@gmail.com'>hchrisp6@gmail.com</Link></p>
                 <p className='text-lg my-2'>Phone: <Link href='tel:00447398 040560'>+44 7398 040560</Link></p>
                 <div className='flex flex-row items-baseline justify-center my-2'>
-                    <p className='text-lg mr-2 self-center'>Checkout my portfolio: </p>
+                    <p className='text-lg mr-2 self-center'>Download my portfolio: </p>
                     <a href='/portfolio/HollyChrisp_GD_Portfolio.pdf' download className='text-indigo-700 hover:text-indigo-950 p-0'>
                         <ArrowDownOnSquareIcon width={24} />
                     </a>
